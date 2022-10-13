@@ -10,28 +10,40 @@
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 30px;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 #button:hover {
     background-color: white; /* Green */
     color: #4CAF50;
+    padding: 20px;
  }
 
  #mylink {
     background-color: #4CAF50;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
     padding: 50px;
  }
 
  #mylink:hover {
     background-color: #B9032C;
-    padding: 200px;
+    padding: 100px;
+ }
+
+ #meme {
+    width:300px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
  }
 
